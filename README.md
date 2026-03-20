@@ -60,6 +60,7 @@ conda activate gwenv
 conda install -c conda-forge gdal==3.11.4
 conda config --env --add channels conda-forge
 conda config --env --set channel_priority strict
+conda install geowombat
 cd ../environment
 pip install -r requirements.txt
 ```
