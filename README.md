@@ -55,7 +55,7 @@ gdalinfo --version
 * Create a virtual Conda environment with the required Python version and requirements file:
 * Install [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) with the “Desktop development with C++” workload.
 ```python I'm A tab
-conda create --name gwenv python=3.12
+conda create --name gwenv python=3.10
 conda activate gwenv
 conda install -c conda-forge gdal==3.11.4
 conda config --env --add channels conda-forge
